@@ -1,6 +1,7 @@
 {
   "categories": [
     {
+      "uid": 1,
       "name": "Briófitas",
       "image": "https://images.pexels.com/photos/10836723/pexels-photo-10836723.png?auto=compress&cs=tinysrgb&w=600",
       "plants": [
@@ -58,6 +59,7 @@
       "id": 1
     },
     {
+      "uid": 2,
       "name": "Pteridófitas",
       "image": "https://images.pexels.com/photos/12160719/pexels-photo-12160719.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
@@ -115,6 +117,7 @@
       "id": 2
     },
     {
+      "uid": 3,
       "name": "Gimnospermas",
       "image": "https://images.pexels.com/photos/29503924/pexels-photo-29503924/free-photo-of-close-up-de-pinhas-em-arvore-perene.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
@@ -172,6 +175,7 @@
       "id": 3
     },
     {
+      "uid": 4,
       "name": "Angiospermas",
       "image": "https://images.pexels.com/photos/6207449/pexels-photo-6207449.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
@@ -229,6 +233,7 @@
       "id": 4
     },
     {
+      "uid": 5,
       "name": "Plantas aquáticas",
       "image": "https://images.pexels.com/photos/46231/water-lilies-pink-water-lake-46231.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
