@@ -1,762 +1,541 @@
 {
   "categories": [
     {
-      "id": "7b49",
       "name": "Briófitas",
       "image": "https://images.pexels.com/photos/10836723/pexels-photo-10836723.png?auto=compress&cs=tinysrgb&w=600",
       "plants": [
         {
-          "id": "d41f",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/969044/pexels-photo-969044.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Musgo-pluma",
+          "image": "https://images.pexels.com/photos/237715/pexels-photo-237715.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "50,00",
-          "description": "teste",
-          "category": "7b49",
+          "description": "Com folhas finas e eretas, o musgo-pluma parece uma delicada plumagem verde. É perfeito para complementar jardins de sombra e vasos decorativos, trazendo um ar de sofisticação natural.",
+          "category": 1,
           "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 1
         },
         {
-          "id": "2a3a",
-          "name": "teste",
+          "name": "Musgo-estrela",
+          "image": "https://images.pexels.com/photos/5850091/pexels-photo-5850091.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "price": "40,00",
+          "description": "Com suas folhas dispostas em formato de estrela, este musgo é uma verdadeira joia em miniatura. Ideal para terrários e paisagismo em pequenos espaços, ele oferece um toque exótico e visualmente atraente.",
+          "category": 1,
+          "bestSelling": false,
+          "trend": false,
+          "id": 2
+        },
+        {
+          "name": "Musgo-de-veludo",
+          "image": "https://images.pexels.com/photos/21704960/pexels-photo-21704960/free-photo-of-molhado-umido-rocha-pedra.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "price": "30,00",
+          "description": "Este musgo robusto possui uma textura aveludada que encanta ao toque. Perfeito para cobrir rochas e troncos em ambientes sombreados, o musgo-de-veludo é uma adição encantadora a qualquer coleção de plantas.",
+          "category": 1,
+          "bestSelling": false,
+          "trend": false,
+          "id": 3
+        },
+        {
+          "name": "Musgo-de-barba",
           "image": "https://images.pexels.com/photos/14312610/pexels-photo-14312610.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "40,00",
-          "description": "teste",
-          "category": "7b49",
+          "price": "20,00",
+          "description": "Com aparência delicada e filamentos pendentes, o musgo-de-barba adiciona um charme etéreo aos jardins suspensos e terrários. Este briofita é conhecido por sua resiliência e beleza única.",
+          "category": 1,
           "bestSelling": false,
-          "trend": false
+          "trend": true,
+          "id": 4
         },
         {
-          "id": "bc78",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/30245504/pexels-photo-30245504/free-photo-of-close-up-de-arvore-coberta-de-musgo-em-floresta-ensolarada.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "30,00",
-          "description": "teste",
-          "category": "7b49",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "484a",
-          "name": "teste",
+          "name": "Musgo-de-esteira",
           "image": "https://images.pexels.com/photos/29079271/pexels-photo-29079271/free-photo-of-musgo-verdejante-em-penhasco-rochoso-em-amalfi.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "20,00",
-          "description": "teste",
-          "category": "7b49",
-          "bestSelling": false,
-          "trend": true
-        },
-        {
-          "id": "a8bc",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/30410685/pexels-photo-30410685.jpeg?auto=compress&cs=tinysrgb&w=600",
           "price": "10,00",
-          "description": "teste",
-          "category": "7b49",
+          "description": "Este musgo elegante forma densa esteira de folhas verdes e macias. Ideal para ambientes úmidos e sombreados, é perfeito para dar um toque natural e suave a qualquer espaço.",
+          "category": 1,
           "bestSelling": true,
-          "trend": false
+          "trend": false,
+          "id": 5
         }
-      ]
+      ],
+      "id": 1
     },
     {
-      "id": "239f",
       "name": "Pteridófitas",
-      "image": "https://images.pexels.com/photos/12160719/pexels-photo-12160719.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/12160719/pexels-photo-12160719.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
         {
-          "id": "8f3b",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/12160719/pexels-photo-12160719.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "10,00",
-          "description": "teste",
-          "category": "239f",
-          "bestSelling": true,
-          "trend": false
-        },
-        {
-          "id": "654a",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/11418194/pexels-photo-11418194.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "20,00",
-          "description": "teste",
-          "category": "239f",
-          "bestSelling": false,
-          "trend": true
-        },
-        {
-          "id": "cfef",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/66319/fern-leaf-roll-nature-66319.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "30,00",
-          "description": "teste",
-          "category": "239f",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "234c",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/20261506/pexels-photo-20261506/free-photo-of-hojas-verdes-dark-helecho-papel-de-parede.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "40,00",
-          "description": "teste",
-          "category": "239f",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "a343",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/1028223/pexels-photo-1028223.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Samambaia-de-espada",
+          "image": "https://images.pexels.com/photos/1907054/pexels-photo-1907054.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "50,00",
-          "description": "teste",
-          "category": "239f",
+          "description": "Famosa por suas longas frondes arqueadas, a samambaia-de-espada é uma planta versátil que se adapta bem a diferentes condições de luz. Ideal para pendurar ou colocar em vasos, adiciona um toque clássico de verde a qualquer ambiente.",
+          "category": 2,
           "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 6
+        },
+        {
+          "name": "Samambaia-de-botão",
+          "image": "https://images.pexels.com/photos/794511/pexels-photo-794511.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "40,00",
+          "description": "Esta pequena samambaia tem folhas redondas e coriáceas, que crescem em longas hastes arqueadas. É uma excelente opção para vasos decorativos e áreas internas bem iluminadas.",
+          "category": 2,
+          "bestSelling": false,
+          "trend": false,
+          "id": 7
+        },
+        {
+          "name": "Avenca",
+          "image": "https://images.pexels.com/photos/3626528/pexels-photo-3626528.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "30,00",
+          "description": "Com folhas delicadas e finamente divididas, a avenca é ideal para vasos e cestos suspensos. Ela requer um ambiente úmido e luz indireta, sendo perfeita para dar um toque de leveza e sofisticação.",
+          "category": 2,
+          "bestSelling": false,
+          "trend": false,
+          "id": 8
+        },
+        {
+          "name": "Chifre-de-veado",
+          "image": "https://images.pexels.com/photos/12461879/pexels-photo-12461879.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "20,00",
+          "description": "Conhecida por suas frondes que se assemelham a chifres de veado, esta planta epífita é perfeita para montar em placas ou troncos. Traz um visual intrigante e diferente para qualquer espaço.",
+          "category": 2,
+          "bestSelling": false,
+          "trend": true,
+          "id": 9
+        },
+        {
+          "name": "Samambaia-azul",
+          "image": "https://images.pexels.com/photos/884547/pexels-photo-884547.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "10,00",
+          "description": "Com folhas grandes e recortadas, a samambaia-azul é uma escolha popular para jardins internos e externos. Seu tom azulado único adiciona um toque exótico e elegante ao ambiente.",
+          "category": 2,
+          "bestSelling": true,
+          "trend": false,
+          "id": 10
         }
-      ]
+      ],
+      "id": 2
     },
     {
-      "id": "d224",
       "name": "Gimnospermas",
-      "image": "https://images.pexels.com/photos/7188013/pexels-photo-7188013.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/29503924/pexels-photo-29503924/free-photo-of-close-up-de-pinhas-em-arvore-perene.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
         {
-          "id": "ad65",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/11154736/pexels-photo-11154736.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Pinheiro-manso",
+          "image": "https://images.pexels.com/photos/11389794/pexels-photo-11389794.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "50,00",
-          "description": "teste",
-          "category": "d224",
+          "description": "Este pinheiro é famoso por suas sementes comestíveis conhecidas como pinhões. Sua copa arredondada e tronco robusto fazem do pinheiro-manso uma escolha popular para paisagismo em grandes áreas abertas.",
+          "category": 3,
           "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 11
         },
         {
-          "id": "628d",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/11389794/pexels-photo-11389794.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Tuias",
+          "image": "https://images.pexels.com/photos/11154736/pexels-photo-11154736.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "40,00",
-          "description": "teste",
-          "category": "d224",
+          "description": "Com suas folhas escamosas e densa folhagem, as tuias são ideais para formar cercas vivas e proporcionar privacidade nos jardins. Além disso, são plantas resistentes e de fácil manutenção.",
+          "category": 3,
           "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 12
         },
         {
-          "id": "6afe",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/10573108/pexels-photo-10573108.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Pinheiro-bravo",
+          "image": "https://images.pexels.com/photos/5272639/pexels-photo-5272639.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "30,00",
-          "description": "teste",
-          "category": "d224",
+          "description": "Conhecido por seu crescimento rápido e tronco reto, o pinheiro-bravo é uma excelente escolha para áreas que precisam de reflorestamento ou criação de barreiras naturais. Suas pinhas grandes são um destaque adicional.",
+          "category": 3,
           "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 13
         },
         {
-          "id": "fc05",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/7188013/pexels-photo-7188013.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Cica",
+          "image": "https://images.pexels.com/photos/19057575/pexels-photo-19057575/free-photo-of-arvore-verde-ecologico-coniferas.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "20,00",
-          "description": "teste",
-          "category": "d224",
+          "description": "Esta planta exótica possui uma coroa de folhas rígidas e arqueadas que lembram palmeiras. Perfeita para vasos ou jardins, a cica é uma gimnosperma que adiciona um ar tropical e elegante ao ambiente.",
+          "category": 3,
           "bestSelling": false,
-          "trend": true
+          "trend": true,
+          "id": 14
         },
         {
-          "id": "5d6c",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/29503924/pexels-photo-29503924/free-photo-of-close-up-de-pinhas-em-arvore-perene.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Pinheiro-do-Paraná",
+          "image": "https://images.pexels.com/photos/7188013/pexels-photo-7188013.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "10,00",
-          "description": "teste",
-          "category": "d224",
+          "description": "Este majestoso pinheiro é conhecido por sua forma cônica e folhas em formato de agulha. É uma planta nativa do Brasil, ideal para grandes jardins e paisagismo que buscam um toque de grandiosidade natural.",
+          "category": 3,
           "bestSelling": true,
-          "trend": false
+          "trend": false,
+          "id": 15
         }
-      ]
+      ],
+      "id": 3
     },
     {
-      "id": "91fd",
       "name": "Angiospermas",
-      "image": "https://images.pexels.com/photos/30412593/pexels-photo-30412593/free-photo-of-flores-de-cerejeira-brancas-sob-a-luz-do-sol-da-primavera.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/6207449/pexels-photo-6207449.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
         {
-          "id": "8f69",
-          "name": "Teste",
-          "image": "https://images.pexels.com/photos/6913056/pexels-photo-6913056.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "50,00",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "category": "91fd",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "62f7",
-          "name": "Teste",
-          "image": "https://images.pexels.com/photos/7645578/pexels-photo-7645578.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "40,00",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "category": "91fd",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "e4eb",
-          "name": "Teste",
-          "image": "https://images.pexels.com/photos/6912904/pexels-photo-6912904.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "30,00",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "category": "91fd",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "6b0d",
-          "name": "Teste",
-          "image": "https://images.pexels.com/photos/6913060/pexels-photo-6913060.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "20,00",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "category": "91fd",
-          "bestSelling": false,
-          "trend": true
-        },
-        {
-          "id": "a60f",
-          "name": "Teste",
-          "image": "https://images.pexels.com/photos/30412593/pexels-photo-30412593/free-photo-of-flores-de-cerejeira-brancas-sob-a-luz-do-sol-da-primavera.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Rosa",
+          "image": "https://images.pexels.com/photos/7645578/pexels-photo-7645578.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "10,00",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "category": "91fd",
+          "description": "As rosas são conhecidas por sua beleza e fragrância encantadora. Disponíveis em diversas cores, estas flores simbolizam amor e elegância, sendo perfeitas para decorar qualquer ambiente.",
+          "category": 4,
           "bestSelling": true,
-          "trend": false
+          "trend": false,
+          "id": 16
+        },
+        {
+          "name": "Orquídea-borboleta",
+          "image": "https://images.pexels.com/photos/6407600/pexels-photo-6407600.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "20,00",
+          "description": "Com suas flores exóticas e duradouras, as orquídeas-borboleta são ideais para adicionar um toque de sofisticação e charme a interiores. Elas são apreciadas por sua variedade de cores e formas únicas.",
+          "category": 4,
+          "bestSelling": false,
+          "trend": true,
+          "id": 17
+        },
+        {
+          "name": "Lavanda",
+          "image": "https://images.pexels.com/photos/6913057/pexels-photo-6913057.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "30,00",
+          "description": "A lavanda é famosa por seu aroma relaxante e flores roxas delicadas. Perfeita para jardins e vasos, esta planta é utilizada tanto na decoração quanto na aromaterapia, trazendo tranquilidade e beleza.",
+          "category": 4,
+          "bestSelling": false,
+          "trend": false,
+          "id": 18
+        },
+        {
+          "name": "Girassol",
+          "image": "https://images.pexels.com/photos/5352675/pexels-photo-5352675.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "40,00",
+          "description": "Com suas flores grandes e vibrantes, os girassóis são símbolos de alegria e vitalidade. Ideais para jardins e arranjos florais, eles trazem um toque de sol e energia positiva para qualquer espaço.",
+          "category": 4,
+          "bestSelling": false,
+          "trend": false,
+          "id": 19
+        },
+        {
+          "name": "Hibisco",
+          "image": "https://images.pexels.com/photos/7125463/pexels-photo-7125463.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "50,00",
+          "description": "Conhecido por suas flores vistosas e coloridas, o hibisco é uma planta tropical que adiciona um ar de exuberância ao jardim. Suas flores podem variar do branco ao vermelho intenso, sendo uma escolha popular para paisagismo.",
+          "category": 4,
+          "bestSelling": false,
+          "trend": false,
+          "id": 20
         }
-      ]
+      ],
+      "id": 4
     },
     {
-      "id": "32d4",
       "name": "Plantas aquáticas",
-      "image": "https://images.pexels.com/photos/158623/water-lilies-nuphar-aquatic-plants-flowers-158623.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "image": "https://images.pexels.com/photos/46231/water-lilies-pink-water-lake-46231.jpeg?auto=compress&cs=tinysrgb&w=300",
       "plants": [
         {
-          "id": "a62b",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/46231/water-lilies-pink-water-lake-46231.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "50,00",
-          "description": "teste",
-          "category": "32d4",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "2fc8",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/30382064/pexels-photo-30382064/free-photo-of-lagoa-serena-com-nenufares-verdejantes.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "40,00",
-          "description": "teste",
-          "category": "32d4",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "774f",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/30414922/pexels-photo-30414922.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "30,00",
-          "description": "teste",
-          "category": "32d4",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "2052",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/30419630/pexels-photo-30419630/free-photo-of-grande-lagoa-de-lirios-com-densa-folhagem-verde.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "20,00",
-          "description": "teste",
-          "category": "32d4",
-          "bestSelling": false,
-          "trend": true
-        },
-        {
-          "id": "814e",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/30178720/pexels-photo-30178720.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Vitória-régia",
+          "image": "https://images.pexels.com/photos/30697219/pexels-photo-30697219/free-photo-of-nenufares-serenos-em-uma-superficie-de-lagoa-tranquila.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "10,00",
-          "description": "teste",
-          "category": "32d4",
+          "description": "Esta magnífica planta aquática é conhecida por suas folhas flutuantes enormes e flores perfumadas que mudam de cor. É uma das atrações mais espetaculares para lagos e jardins aquáticos.",
+          "category": 5,
           "bestSelling": true,
-          "trend": false
-        }
-      ]
-    },
-    {
-      "id": "56a3",
-      "name": "Trepadeiras",
-      "image": "https://images.pexels.com/photos/2928124/pexels-photo-2928124.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "plants": [
-        {
-          "id": "1895",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/8180435/pexels-photo-8180435.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "50,00",
-          "description": "teste",
-          "category": "56a3",
-          "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 21
         },
         {
-          "id": "0e49",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/6317457/pexels-photo-6317457.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "40,00",
-          "description": "teste",
-          "category": "56a3",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "a40e",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/5336400/pexels-photo-5336400.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "30,00",
-          "description": "teste",
-          "category": "56a3",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "fdef",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/2521557/pexels-photo-2521557.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Lótus",
+          "image": "https://images.pexels.com/photos/158623/water-lilies-nuphar-aquatic-plants-flowers-158623.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "20,00",
-          "description": "teste",
-          "category": "56a3",
+          "description": "Com suas flores delicadas e flutuantes, o lótus é uma planta aquática que simboliza pureza e beleza. Ideal para lagos ornamentais, traz um toque de tranquilidade e elegância ao ambiente.",
+          "category": 5,
           "bestSelling": false,
-          "trend": true
+          "trend": true,
+          "id": 22
         },
         {
-          "id": "19c6",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/29471246/pexels-photo-29471246.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "10,00",
-          "description": "teste",
-          "category": "56a3",
-          "bestSelling": true,
-          "trend": false
-        }
-      ]
-    },
-    {
-      "id": "4494",
-      "name": "Suculentas",
-      "image": "https://images.pexels.com/photos/305827/pexels-photo-305827.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "plants": [
-        {
-          "id": "8e36",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/1903970/pexels-photo-1903970.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "50,00",
-          "description": "teste",
-          "category": "4494",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "017a",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/1011302/pexels-photo-1011302.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "40,00",
-          "description": "teste",
-          "category": "4494",
-          "bestSelling": false,
-          "trend": false
-        },
-        {
-          "id": "b22b",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/2132240/pexels-photo-2132240.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "name": "Cabomba",
+          "image": "https://images.pexels.com/photos/30689863/pexels-photo-30689863/free-photo-of-lagoa-serena-de-nenufares-com-botoes-e-folhas.jpeg?auto=compress&cs=tinysrgb&w=300",
           "price": "30,00",
-          "description": "teste",
-          "category": "4494",
+          "description": "Conhecida por suas folhas finamente divididas e flores pequenas, a cabomba é uma excelente escolha para aquários e tanques de água doce. Ajuda a oxigenar a água e oferece abrigo para peixes.",
+          "category": 5,
           "bestSelling": false,
-          "trend": false
+          "trend": false,
+          "id": 23
         },
         {
-          "id": "d12f",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "20,00",
-          "description": "teste",
-          "category": "4494",
+          "name": "Salvinia",
+          "image": "https://images.pexels.com/photos/235593/pexels-photo-235593.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "40,00",
+          "description": "Esta planta flutuante tem folhas pequenas e fofas que crescem rapidamente na superfície da água. É ideal para controlar a proliferação de algas e adicionar um toque verde vibrante a lagos e aquários.",
+          "category": 5,
           "bestSelling": false,
-          "trend": true
+          "trend": false,
+          "id": 24
         },
         {
-          "id": "b486",
-          "name": "teste",
-          "image": "https://images.pexels.com/photos/305827/pexels-photo-305827.jpeg?auto=compress&cs=tinysrgb&w=600",
-          "price": "10,00",
-          "description": "teste",
-          "category": "4494",
-          "bestSelling": true,
-          "trend": false
+          "name": "Ninfeia",
+          "image": "https://images.pexels.com/photos/17662428/pexels-photo-17662428/free-photo-of-natureza-flores-folhas-plantas.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "price": "50,00",
+          "description": "Com suas flores coloridas que flutuam graciosamente na água, as ninfeias são uma escolha popular para jardins aquáticos. Disponíveis em várias cores, suas flores adicionam um toque de magia e serenidade.",
+          "category": 5,
+          "bestSelling": false,
+          "trend": false,
+          "id": 25
         }
-      ]
+      ],
+      "id": 5
     }
   ],
   "plants": [
     {
-      "name": "Teste",
-      "image": "https://images.pexels.com/photos/6913056/pexels-photo-6913056.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Musgo-pluma",
+      "image": "https://images.pexels.com/photos/237715/pexels-photo-237715.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "50,00",
-      "newPrice": "30,00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "category": "91fd",
+      "description": "Com folhas finas e eretas, o musgo-pluma parece uma delicada plumagem verde. É perfeito para complementar jardins de sombra e vasos decorativos, trazendo um ar de sofisticação natural.",
+      "category": 1,
       "bestSelling": false,
       "trend": false,
-      "id": "8f69"
+      "id": 1
     },
     {
-      "id": "62f7",
-      "name": "Teste",
-      "image": "https://images.pexels.com/photos/7645578/pexels-photo-7645578.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Musgo-estrela",
+      "image": "https://images.pexels.com/photos/5850091/pexels-photo-5850091.jpeg?auto=compress&cs=tinysrgb&w=600",
       "price": "40,00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "category": "91fd",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "e4eb",
-      "name": "Teste",
-      "image": "https://images.pexels.com/photos/6912904/pexels-photo-6912904.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "30,00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "category": "91fd",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "6b0d",
-      "name": "Teste",
-      "image": "https://images.pexels.com/photos/6913060/pexels-photo-6913060.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "20,00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "category": "91fd",
-      "bestSelling": false,
-      "trend": true
-    },
-    {
-      "id": "a60f",
-      "name": "Teste",
-      "image": "https://images.pexels.com/photos/30412593/pexels-photo-30412593/free-photo-of-flores-de-cerejeira-brancas-sob-a-luz-do-sol-da-primavera.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "10,00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "category": "91fd",
-      "bestSelling": true,
-      "trend": false
-    },
-    {
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/969044/pexels-photo-969044.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "50,00",
-      "newPrice": "30,00",
-      "description": "teste",
-      "category": "7b49",
+      "description": "Com suas folhas dispostas em formato de estrela, este musgo é uma verdadeira joia em miniatura. Ideal para terrários e paisagismo em pequenos espaços, ele oferece um toque exótico e visualmente atraente.",
+      "category": 1,
       "bestSelling": false,
       "trend": false,
-      "id": "d41f"
+      "id": 2
     },
     {
-      "id": "2a3a",
-      "name": "teste",
+      "name": "Musgo-de-veludo",
+      "image": "https://images.pexels.com/photos/21704960/pexels-photo-21704960/free-photo-of-molhado-umido-rocha-pedra.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "30,00",
+      "description": "Este musgo robusto possui uma textura aveludada que encanta ao toque. Perfeito para cobrir rochas e troncos em ambientes sombreados, o musgo-de-veludo é uma adição encantadora a qualquer coleção de plantas.",
+      "category": 1,
+      "bestSelling": false,
+      "trend": false,
+      "id": 3
+    },
+    {
+      "name": "Musgo-de-barba",
       "image": "https://images.pexels.com/photos/14312610/pexels-photo-14312610.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "40,00",
-      "description": "teste",
-      "category": "7b49",
+      "price": "20,00",
+      "description": "Com aparência delicada e filamentos pendentes, o musgo-de-barba adiciona um charme etéreo aos jardins suspensos e terrários. Este briofita é conhecido por sua resiliência e beleza única.",
+      "category": 1,
       "bestSelling": false,
-      "trend": false
+      "trend": true,
+      "id": 4
     },
     {
-      "id": "bc78",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/30245504/pexels-photo-30245504/free-photo-of-close-up-de-arvore-coberta-de-musgo-em-floresta-ensolarada.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "30,00",
-      "description": "teste",
-      "category": "7b49",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "484a",
-      "name": "teste",
+      "name": "Musgo-de-esteira",
       "image": "https://images.pexels.com/photos/29079271/pexels-photo-29079271/free-photo-of-musgo-verdejante-em-penhasco-rochoso-em-amalfi.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "20,00",
-      "description": "teste",
-      "category": "7b49",
-      "bestSelling": false,
-      "trend": true
-    },
-    {
-      "id": "a8bc",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/30410685/pexels-photo-30410685.jpeg?auto=compress&cs=tinysrgb&w=600",
       "price": "10,00",
-      "description": "teste",
-      "category": "7b49",
+      "description": "Este musgo elegante forma densa esteira de folhas verdes e macias. Ideal para ambientes úmidos e sombreados, é perfeito para dar um toque natural e suave a qualquer espaço.",
+      "category": 1,
       "bestSelling": true,
-      "trend": false
+      "trend": false,
+      "id": 5
     },
     {
-      "id": "8f3b",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/12160719/pexels-photo-12160719.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "10,00",
-      "description": "teste",
-      "category": "239f",
-      "bestSelling": true,
-      "trend": false
-    },
-    {
-      "id": "654a",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/11418194/pexels-photo-11418194.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "20,00",
-      "description": "teste",
-      "category": "239f",
-      "bestSelling": false,
-      "trend": true
-    },
-    {
-      "id": "cfef",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/66319/fern-leaf-roll-nature-66319.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "30,00",
-      "description": "teste",
-      "category": "239f",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "234c",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/20261506/pexels-photo-20261506/free-photo-of-hojas-verdes-dark-helecho-papel-de-parede.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "40,00",
-      "description": "teste",
-      "category": "239f",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/1028223/pexels-photo-1028223.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Samambaia-de-espada",
+      "image": "https://images.pexels.com/photos/1907054/pexels-photo-1907054.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "50,00",
-      "newPrice": "30,00",
-      "description": "teste",
-      "category": "239f",
+      "description": "Famosa por suas longas frondes arqueadas, a samambaia-de-espada é uma planta versátil que se adapta bem a diferentes condições de luz. Ideal para pendurar ou colocar em vasos, adiciona um toque clássico de verde a qualquer ambiente.",
+      "category": 2,
       "bestSelling": false,
       "trend": false,
-      "id": "a343"
+      "id": 6
     },
     {
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/11154736/pexels-photo-11154736.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "50,00",
-      "newPrice": "30,00",
-      "description": "teste",
-      "category": "d224",
+      "name": "Samambaia-de-botão",
+      "image": "https://images.pexels.com/photos/794511/pexels-photo-794511.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "40,00",
+      "description": "Esta pequena samambaia tem folhas redondas e coriáceas, que crescem em longas hastes arqueadas. É uma excelente opção para vasos decorativos e áreas internas bem iluminadas.",
+      "category": 2,
       "bestSelling": false,
       "trend": false,
-      "id": "ad65"
+      "id": 7
     },
     {
-      "id": "628d",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/11389794/pexels-photo-11389794.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "40,00",
-      "description": "teste",
-      "category": "d224",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "6afe",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/10573108/pexels-photo-10573108.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Avenca",
+      "image": "https://images.pexels.com/photos/3626528/pexels-photo-3626528.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "30,00",
-      "description": "teste",
-      "category": "d224",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "fc05",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/7188013/pexels-photo-7188013.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "20,00",
-      "description": "teste",
-      "category": "d224",
-      "bestSelling": false,
-      "trend": true
-    },
-    {
-      "id": "5d6c",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/29503924/pexels-photo-29503924/free-photo-of-close-up-de-pinhas-em-arvore-perene.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "10,00",
-      "description": "teste",
-      "category": "d224",
-      "bestSelling": true,
-      "trend": false
-    },
-    {
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/46231/water-lilies-pink-water-lake-46231.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "50,00",
-      "newPrice": "30,00",
-      "description": "teste",
-      "category": "32d4",
+      "description": "Com folhas delicadas e finamente divididas, a avenca é ideal para vasos e cestos suspensos. Ela requer um ambiente úmido e luz indireta, sendo perfeita para dar um toque de leveza e sofisticação.",
+      "category": 2,
       "bestSelling": false,
       "trend": false,
-      "id": "a62b"
+      "id": 8
     },
     {
-      "id": "2fc8",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/30382064/pexels-photo-30382064/free-photo-of-lagoa-serena-com-nenufares-verdejantes.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "40,00",
-      "description": "teste",
-      "category": "32d4",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "774f",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/30414922/pexels-photo-30414922.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "30,00",
-      "description": "teste",
-      "category": "32d4",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "2052",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/30419630/pexels-photo-30419630/free-photo-of-grande-lagoa-de-lirios-com-densa-folhagem-verde.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Chifre-de-veado",
+      "image": "https://images.pexels.com/photos/12461879/pexels-photo-12461879.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "20,00",
-      "description": "teste",
-      "category": "32d4",
+      "description": "Conhecida por suas frondes que se assemelham a chifres de veado, esta planta epífita é perfeita para montar em placas ou troncos. Traz um visual intrigante e diferente para qualquer espaço.",
+      "category": 2,
       "bestSelling": false,
-      "trend": true
+      "trend": true,
+      "id": 9
     },
     {
-      "id": "814e",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/30178720/pexels-photo-30178720.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Samambaia-azul",
+      "image": "https://images.pexels.com/photos/884547/pexels-photo-884547.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "10,00",
-      "description": "teste",
-      "category": "32d4",
+      "description": "Com folhas grandes e recortadas, a samambaia-azul é uma escolha popular para jardins internos e externos. Seu tom azulado único adiciona um toque exótico e elegante ao ambiente.",
+      "category": 2,
       "bestSelling": true,
-      "trend": false
+      "trend": false,
+      "id": 10
     },
     {
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/8180435/pexels-photo-8180435.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Pinheiro-manso",
+      "image": "https://images.pexels.com/photos/11389794/pexels-photo-11389794.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "50,00",
-      "newPrice": "30,00",
-      "description": "teste",
-      "category": "56a3",
+      "description": "Este pinheiro é famoso por suas sementes comestíveis conhecidas como pinhões. Sua copa arredondada e tronco robusto fazem do pinheiro-manso uma escolha popular para paisagismo em grandes áreas abertas.",
+      "category": 3,
       "bestSelling": false,
       "trend": false,
-      "id": "1895"
+      "id": 11
     },
     {
-      "id": "0e49",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/6317457/pexels-photo-6317457.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Tuias",
+      "image": "https://images.pexels.com/photos/11154736/pexels-photo-11154736.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "40,00",
-      "description": "teste",
-      "category": "56a3",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "a40e",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/5336400/pexels-photo-5336400.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "30,00",
-      "description": "teste",
-      "category": "56a3",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "fdef",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/2521557/pexels-photo-2521557.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "20,00",
-      "description": "teste",
-      "category": "56a3",
-      "bestSelling": false,
-      "trend": true
-    },
-    {
-      "id": "19c6",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/29471246/pexels-photo-29471246.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "10,00",
-      "description": "teste",
-      "category": "56a3",
-      "bestSelling": true,
-      "trend": false
-    },
-    {
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/1903970/pexels-photo-1903970.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "50,00",
-      "newPrice": "30,00",
-      "description": "teste",
-      "category": "4494",
+      "description": "Com suas folhas escamosas e densa folhagem, as tuias são ideais para formar cercas vivas e proporcionar privacidade nos jardins. Além disso, são plantas resistentes e de fácil manutenção.",
+      "category": 3,
       "bestSelling": false,
       "trend": false,
-      "id": "8e36"
+      "id": 12
     },
     {
-      "id": "017a",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/1011302/pexels-photo-1011302.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "price": "40,00",
-      "description": "teste",
-      "category": "4494",
-      "bestSelling": false,
-      "trend": false
-    },
-    {
-      "id": "b22b",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/2132240/pexels-photo-2132240.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Pinheiro-bravo",
+      "image": "https://images.pexels.com/photos/5272639/pexels-photo-5272639.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "30,00",
-      "description": "teste",
-      "category": "4494",
+      "description": "Conhecido por seu crescimento rápido e tronco reto, o pinheiro-bravo é uma excelente escolha para áreas que precisam de reflorestamento ou criação de barreiras naturais. Suas pinhas grandes são um destaque adicional.",
+      "category": 3,
       "bestSelling": false,
-      "trend": false
+      "trend": false,
+      "id": 13
     },
     {
-      "id": "d12f",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Cica",
+      "image": "https://images.pexels.com/photos/19057575/pexels-photo-19057575/free-photo-of-arvore-verde-ecologico-coniferas.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "20,00",
-      "description": "teste",
-      "category": "4494",
+      "description": "Esta planta exótica possui uma coroa de folhas rígidas e arqueadas que lembram palmeiras. Perfeita para vasos ou jardins, a cica é uma gimnosperma que adiciona um ar tropical e elegante ao ambiente.",
+      "category": 3,
       "bestSelling": false,
-      "trend": true
+      "trend": true,
+      "id": 14
     },
     {
-      "id": "b486",
-      "name": "teste",
-      "image": "https://images.pexels.com/photos/305827/pexels-photo-305827.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Pinheiro-do-Paraná",
+      "image": "https://images.pexels.com/photos/7188013/pexels-photo-7188013.jpeg?auto=compress&cs=tinysrgb&w=300",
       "price": "10,00",
-      "description": "teste",
-      "category": "4494",
+      "description": "Este majestoso pinheiro é conhecido por sua forma cônica e folhas em formato de agulha. É uma planta nativa do Brasil, ideal para grandes jardins e paisagismo que buscam um toque de grandiosidade natural.",
+      "category": 3,
       "bestSelling": true,
-      "trend": false
+      "trend": false,
+      "id": 15
+    },
+    {
+      "name": "Rosa",
+      "image": "https://images.pexels.com/photos/7645578/pexels-photo-7645578.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "10,00",
+      "description": "As rosas são conhecidas por sua beleza e fragrância encantadora. Disponíveis em diversas cores, estas flores simbolizam amor e elegância, sendo perfeitas para decorar qualquer ambiente.",
+      "category": 4,
+      "bestSelling": true,
+      "trend": false,
+      "id": 16
+    },
+    {
+      "name": "Orquídea-borboleta",
+      "image": "https://images.pexels.com/photos/6407600/pexels-photo-6407600.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "20,00",
+      "description": "Com suas flores exóticas e duradouras, as orquídeas-borboleta são ideais para adicionar um toque de sofisticação e charme a interiores. Elas são apreciadas por sua variedade de cores e formas únicas.",
+      "category": 4,
+      "bestSelling": false,
+      "trend": true,
+      "id": 17
+    },
+    {
+      "name": "Lavanda",
+      "image": "https://images.pexels.com/photos/6913057/pexels-photo-6913057.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "30,00",
+      "description": "A lavanda é famosa por seu aroma relaxante e flores roxas delicadas. Perfeita para jardins e vasos, esta planta é utilizada tanto na decoração quanto na aromaterapia, trazendo tranquilidade e beleza.",
+      "category": 4,
+      "bestSelling": false,
+      "trend": false,
+      "id": 18
+    },
+    {
+      "name": "Girassol",
+      "image": "https://images.pexels.com/photos/5352675/pexels-photo-5352675.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "40,00",
+      "description": "Com suas flores grandes e vibrantes, os girassóis são símbolos de alegria e vitalidade. Ideais para jardins e arranjos florais, eles trazem um toque de sol e energia positiva para qualquer espaço.",
+      "category": 4,
+      "bestSelling": false,
+      "trend": false,
+      "id": 19
+    },
+    {
+      "name": "Hibisco",
+      "image": "https://images.pexels.com/photos/7125463/pexels-photo-7125463.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "50,00",
+      "description": "Conhecido por suas flores vistosas e coloridas, o hibisco é uma planta tropical que adiciona um ar de exuberância ao jardim. Suas flores podem variar do branco ao vermelho intenso, sendo uma escolha popular para paisagismo.",
+      "category": 4,
+      "bestSelling": false,
+      "trend": false,
+      "id": 20
+    },
+    {
+      "name": "Vitória-régia",
+      "image": "https://images.pexels.com/photos/30697219/pexels-photo-30697219/free-photo-of-nenufares-serenos-em-uma-superficie-de-lagoa-tranquila.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "10,00",
+      "description": "Esta magnífica planta aquática é conhecida por suas folhas flutuantes enormes e flores perfumadas que mudam de cor. É uma das atrações mais espetaculares para lagos e jardins aquáticos.",
+      "category": 5,
+      "bestSelling": true,
+      "trend": false,
+      "id": 21
+    },
+    {
+      "name": "Lótus",
+      "image": "https://images.pexels.com/photos/158623/water-lilies-nuphar-aquatic-plants-flowers-158623.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "20,00",
+      "description": "Com suas flores delicadas e flutuantes, o lótus é uma planta aquática que simboliza pureza e beleza. Ideal para lagos ornamentais, traz um toque de tranquilidade e elegância ao ambiente.",
+      "category": 5,
+      "bestSelling": false,
+      "trend": true,
+      "id": 22
+    },
+    {
+      "name": "Cabomba",
+      "image": "https://images.pexels.com/photos/30689863/pexels-photo-30689863/free-photo-of-lagoa-serena-de-nenufares-com-botoes-e-folhas.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "30,00",
+      "description": "Conhecida por suas folhas finamente divididas e flores pequenas, a cabomba é uma excelente escolha para aquários e tanques de água doce. Ajuda a oxigenar a água e oferece abrigo para peixes.",
+      "category": 5,
+      "bestSelling": false,
+      "trend": false,
+      "id": 23
+    },
+    {
+      "name": "Salvinia",
+      "image": "https://images.pexels.com/photos/235593/pexels-photo-235593.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "40,00",
+      "description": "Esta planta flutuante tem folhas pequenas e fofas que crescem rapidamente na superfície da água. É ideal para controlar a proliferação de algas e adicionar um toque verde vibrante a lagos e aquários.",
+      "category": 5,
+      "bestSelling": false,
+      "trend": false,
+      "id": 24
+    },
+    {
+      "name": "Ninfeia",
+      "image": "https://images.pexels.com/photos/17662428/pexels-photo-17662428/free-photo-of-natureza-flores-folhas-plantas.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "50,00",
+      "description": "Com suas flores coloridas que flutuam graciosamente na água, as ninfeias são uma escolha popular para jardins aquáticos. Disponíveis em várias cores, suas flores adicionam um toque de magia e serenidade.",
+      "category": 5,
+      "bestSelling": false,
+      "trend": false,
+      "id": 25
     }
   ],
   "vases": [
