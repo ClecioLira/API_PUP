@@ -20,7 +20,7 @@ mongoose
     console.error("MongoDB connection error:", err);
   });
 
-app.use("/uploads", express.static("uploads"));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api/upload", uploadRoutes);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/plants", plantsRoutes);
