@@ -1,17 +1,15 @@
 const Plant = require("../models/Plants");
 
 exports.createPlant = async (req, res) => {
-  const { name, description, category, price, trend, bestSelling } = req.body;
+  const { name, imageUrl, description, category, price, trend, bestSelling } = req.body;
 
-  if (!name || !req.file || !description || !category || !price) {
+  if (!name || !imageUrl || !description || !category || !price) {
     return res
       .status(400)
       .json({
         message: "NOME, IMAGEM, DESCRIÇÃO, CATEGORIA E PREÇO SÃO OBRIGATÓRIOS",
       });
   }
-
-  const imageUrl = `/uploads/${req.file.filename}`;
 
   try {
     const newPlant = new Plant({
@@ -59,21 +57,19 @@ exports.getPlantById = async (req, res) => {
 
 exports.updatePlant = async (req, res) => {
   const { id } = req.params;
-  const { name, description, category, price, trend, bestSelling } = req.body;
+  const { name, imageUrl, description, category, price, trend, bestSelling } = req.body;
 
   if (!id) {
     return res.status(400).json({ message: "ID NÃO INFORMADO" });
   }
 
-  if (!name || !req.file || !description || !category || !price) {
+  if (!name || !imageUrl || !description || !category || !price) {
     return res
       .status(400)
       .json({
         message: "NOME, IMAGEM, DESCRIÇÃO, CATEGORIA E PREÇO SÃO OBRIGATÓRIOS",
       });
   }
-
-  const imageUrl = `/uploads/${req.file.filename}`;
 
   try {
     const updatedPlant = await Plant.findByIdAndUpdate(
