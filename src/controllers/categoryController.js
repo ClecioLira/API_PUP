@@ -1,13 +1,14 @@
 const Category = require("../models/Category");
 
 exports.createCategory = async (req, res) => {
-  const { name, imageUrl } = req.body;
+  const { name } = req.body;
 
-  if (!name || !imageUrl) {
+  if (!name || !req.file) {
     return res.status(400).json({ message: "NOME E IMAGEM SÃO OBRIGATÓRIOS" });
   }
 
   try {
+    const imageUrl = req.file.path;
     const newCategory = new Category({ name, imageUrl });
     await newCategory.save();
     res.status(201).json(newCategory);
@@ -45,17 +46,18 @@ exports.getCategoryById = async (req, res) => {
 
 exports.updateCategory = async (req, res) => {
   const { id } = req.params;
-  const { name, imageUrl } = req.body;
+  const { name } = req.body;
 
   if (!id) {
     return res.status(400).json({ message: "ID NÃO INFORMADO" });
   }
 
-  if (!name || !imageUrl) {
+  if (!name || !req.file) {
     return res.status(400).json({ message: "NOME E IMAGEM SÃO OBRIGATÓRIOS" });
   }
 
   try {
+    const imageUrl = req.file.path;
     const updatedCategory = await Category.findByIdAndUpdate(
       id,
       { name, imageUrl },

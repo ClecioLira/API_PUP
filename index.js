@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const categoryRoutes = require("./src/routes/categoryRoutes");
 const plantsRoutes = require("./src/routes/plantsRoutes");
+const vaseRoutes = require("./src/routes/vaseRoutes");
 
 const app = express();
 app.use(cors());
@@ -21,6 +22,7 @@ mongoose
 
 app.use("/api/categories", categoryRoutes);
 app.use("/api/plants", plantsRoutes);
+app.use("/api/vases", vaseRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
