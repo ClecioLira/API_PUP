@@ -43,11 +43,11 @@ exports.getVaseById = async (req, res) => {
   }
 
   try {
-    const Vase = await Vase.findById(id);
+    const vase = await Vase.findById(id);
     if (!Vase) {
       return res.status(404).json({ message: "VASO NÃO ENCONTRADO" });
     }
-    res.status(200).json(Vase);
+    res.status(200).json(vase);
   } catch (error) {
     res.status(500).json({ message: "ERRO AO BUSCAR VASO" });
   }
