@@ -23,6 +23,10 @@ const plantSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    newPrice: {
+      type: String,
+      required: false,
+    },
     trend: {
       type: Boolean,
       default: false,

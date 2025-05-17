@@ -76,7 +76,7 @@ exports.updatePlant = async (req, res) => {
     const imageUrl = req.file.path;
     const updatedPlant = await Plant.findByIdAndUpdate(
       id,
-      { name, imageUrl, description, category, price, trend, bestSelling },
+      { name, imageUrl, description, category, price, newPrice, trend, bestSelling },
       { new: true }
     );
     if (!updatedPlant) {
