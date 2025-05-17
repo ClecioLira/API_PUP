@@ -58,7 +58,7 @@ exports.getPlantById = async (req, res) => {
 
 exports.updatePlant = async (req, res) => {
   const { id } = req.params;
-  const { name, description, category, price, trend, bestSelling } = req.body;
+  const { name, description, category, price, newPrice, trend, bestSelling } = req.body;
 
   if (!id) {
     return res.status(400).json({ message: "ID NÃO INFORMADO" });
