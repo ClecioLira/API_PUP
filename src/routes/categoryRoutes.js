@@ -1,14 +1,15 @@
-const express = require("express");
-const router = express.Router();
-const upload = require("../../storage");
-const {
+import express from "express";
+import upload from "../../storage.js";
+import {
   createCategory,
   getAllCategories,
   getCategoryById,
   updateCategory,
   deleteCategory,
-} = require("../controllers/categoryController");
-const { authenticateToken } = require("../middleware/authToken");
+} from "../controllers/categoryController.js";
+import authenticateToken from "../middleware/authToken.js";
+
+const router = express.Router();
 
 router.post("/", authenticateToken, upload.single("image"), createCategory);
 router.get("/", getAllCategories);
@@ -16,4 +17,4 @@ router.get("/:id", getCategoryById);
 router.put("/:id", authenticateToken, upload.single("image"), updateCategory);
 router.delete("/:id", authenticateToken, deleteCategory);
 
-module.exports = router;
+export default router;

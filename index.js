@@ -1,13 +1,14 @@
-require("dotenv").config();
-const express = require("express");
-const mongoose = require("mongoose");
-const cors = require("cors");
+import dotenv from "dotenv";
+import express from "express";
+import mongoose from "mongoose";
+import cors from "cors";
+import categoryRoutes from "./src/routes/categoryRoutes.js";
+import plantsRoutes from "./src/routes/plantsRoutes.js";
+import vaseRoutes from "./src/routes/vaseRoutes.js";
+import loginRoutes from "./src/routes/loginRoutes.js";
+import registerRoutes from "./src/routes/registerRoutes.js";
 
-const categoryRoutes = require("./src/routes/categoryRoutes");
-const plantsRoutes = require("./src/routes/plantsRoutes");
-const vaseRoutes = require("./src/routes/vaseRoutes");
-const loginRoutes = require("./src/routes/loginRoutes");
-const registerRoutes = require("./src/routes/registerRoutes");
+dotenv.config();
 
 const app = express();
 app.use(cors());

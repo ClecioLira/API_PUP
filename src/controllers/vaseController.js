@@ -1,6 +1,6 @@
-const Vase = require("../models/Vase");
+import Vase from "../models/Vase.js";
 
-exports.createVase = async (req, res) => {
+const createVase = async (req, res) => {
   const { name, description, price } = req.body;
 
   if (!name) {
@@ -31,7 +31,7 @@ exports.createVase = async (req, res) => {
   }
 };
 
-exports.getAllVases = async (req, res) => {
+const getAllVases = async (req, res) => {
   try {
     const Vases = await Vase.find();
     res.status(200).json(Vases);
@@ -40,7 +40,7 @@ exports.getAllVases = async (req, res) => {
   }
 };
 
-exports.getVaseById = async (req, res) => {
+const getVaseById = async (req, res) => {
   const { id } = req.params;
 
   if (!id) {
@@ -58,7 +58,7 @@ exports.getVaseById = async (req, res) => {
   }
 };
 
-exports.updateVase = async (req, res) => {
+const updateVase = async (req, res) => {
   const { id } = req.params;
   const { name, description, price } = req.body;
 
@@ -95,7 +95,7 @@ exports.updateVase = async (req, res) => {
   }
 };
 
-exports.deleteVase = async (req, res) => {
+const deleteVase = async (req, res) => {
   const { id } = req.params;
 
   if (!id) {
@@ -111,4 +111,12 @@ exports.deleteVase = async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: "ERRO AO EXCLUIR VASO" });
   }
+};
+
+export {
+  createVase,
+  getAllVases,
+  getVaseById,
+  updateVase,
+  deleteVase,
 };

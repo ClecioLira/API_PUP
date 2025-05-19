@@ -1,6 +1,6 @@
-const Plant = require("../models/Plants");
+import Plant from "../models/Plants.js";
 
-exports.createPlant = async (req, res) => {
+const createPlant = async (req, res) => {
   const { name, description, category, price, trend, bestSelling } = req.body;
 
   if (!name) {
@@ -37,7 +37,7 @@ exports.createPlant = async (req, res) => {
   }
 };
 
-exports.getAllPlants = async (req, res) => {
+const getAllPlants = async (req, res) => {
   try {
     const plants = await Plant.find();
     res.status(200).json(plants);
@@ -46,7 +46,7 @@ exports.getAllPlants = async (req, res) => {
   }
 };
 
-exports.getPlantById = async (req, res) => {
+const getPlantById = async (req, res) => {
   const { id } = req.params;
 
   if (!id) {
@@ -64,7 +64,7 @@ exports.getPlantById = async (req, res) => {
   }
 };
 
-exports.updatePlant = async (req, res) => {
+const updatePlant = async (req, res) => {
   const { id } = req.params;
   const { name, description, category, price, newPrice, trend, bestSelling } =
     req.body;
@@ -114,7 +114,7 @@ exports.updatePlant = async (req, res) => {
   }
 };
 
-exports.deletePlant = async (req, res) => {
+const deletePlant = async (req, res) => {
   const { id } = req.params;
 
   if (!id) {
@@ -130,4 +130,12 @@ exports.deletePlant = async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: "ERRO AO EXCLUIR PLANTA" });
   }
+};
+
+export {
+  createPlant,
+  getAllPlants,
+  getPlantById,
+  updatePlant,
+  deletePlant,
 };

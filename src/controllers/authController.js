@@ -1,11 +1,12 @@
-require("dotenv").config();
-const User = require("../models/User");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
+import dotenv from "dotenv";
+dotenv.config();
+import User from "../models/User.js";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken";
 
 const SECRET = process.env.SECRET;
 
-exports.login = async (req, res) => {
+const login = async (req, res) => {
   const { email, password } = req.body;
   if (!email) {
     return res.status(400).json({ message: "EMAIL É OBRIGATÓRIO" });
@@ -32,7 +33,7 @@ exports.login = async (req, res) => {
   }
 };
 
-exports.register = async (req, res) => {
+const register = async (req, res) => {
   const { name, email, password } = req.body;
   if (!name) {
     return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
@@ -63,3 +64,5 @@ exports.register = async (req, res) => {
     res.status(500).json({ message: "ERRO AO CRIAR USUÁRIO" });
   }
 };
+
+export { login, register };

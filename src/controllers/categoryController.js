@@ -1,6 +1,6 @@
-const Category = require("../models/Category");
+import Category from "../models/Category.js";
 
-exports.createCategory = async (req, res) => {
+const createCategory = async (req, res) => {
   const { name } = req.body;
 
   if (!name) {
@@ -20,7 +20,7 @@ exports.createCategory = async (req, res) => {
   }
 };
 
-exports.getAllCategories = async (req, res) => {
+const getAllCategories = async (req, res) => {
   try {
     const categories = await Category.find();
     res.status(200).json(categories);
@@ -29,7 +29,7 @@ exports.getAllCategories = async (req, res) => {
   }
 };
 
-exports.getCategoryById = async (req, res) => {
+const getCategoryById = async (req, res) => {
   const { id } = req.params;
 
   if (!id) {
@@ -47,7 +47,7 @@ exports.getCategoryById = async (req, res) => {
   }
 };
 
-exports.updateCategory = async (req, res) => {
+const updateCategory = async (req, res) => {
   const { id } = req.params;
   const { name } = req.body;
 
@@ -78,7 +78,7 @@ exports.updateCategory = async (req, res) => {
   }
 };
 
-exports.deleteCategory = async (req, res) => {
+const deleteCategory = async (req, res) => {
   const { id } = req.params;
 
   if (!id) {
@@ -94,4 +94,12 @@ exports.deleteCategory = async (req, res) => {
   } catch (error) {
     res.status(500).json({ message: "ERRO AO EXCLUIR CATEGORIA" });
   }
+};
+
+export {
+  createCategory,
+  getAllCategories,
+  getCategoryById,
+  updateCategory,
+  deleteCategory,
 };

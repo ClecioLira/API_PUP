@@ -1,19 +1,20 @@
-const express = require("express");
-const router = express.Router();
-const upload = require('../../storage');
-const {
+import express from "express";
+import upload from "../../storage.js";
+import {
   createPlant,
   getAllPlants,
   getPlantById,
   updatePlant,
   deletePlant,
-} = require("../controllers/plantsController");
-const { authenticateToken } = require("../middleware/authToken");
+} from "../controllers/plantsController.js";
+import authenticateToken from "../middleware/authToken.js";
 
-router.post("/", authenticateToken, upload.single('image'), createPlant);
+const router = express.Router();
+
+router.post("/", authenticateToken, upload.single("image"), createPlant);
 router.get("/", getAllPlants);
 router.get("/:id", getPlantById);
-router.put("/:id", authenticateToken, upload.single('image'), updatePlant);
+router.put("/:id", authenticateToken, upload.single("image"), updatePlant);
 router.delete("/:id", authenticateToken, deletePlant);
 
-module.exports = router;
+export default router;
