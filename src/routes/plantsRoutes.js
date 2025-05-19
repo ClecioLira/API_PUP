@@ -8,11 +8,12 @@ const {
   updatePlant,
   deletePlant,
 } = require("../controllers/plantsController");
+const { authenticateToken } = require("../middleware/authToken");
 
-router.post("/", upload.single('image'), createPlant);
+router.post("/", authenticateToken, upload.single('image'), createPlant);
 router.get("/", getAllPlants);
 router.get("/:id", getPlantById);
-router.put("/:id", upload.single('image'), updatePlant);
-router.delete("/:id", deletePlant);
+router.put("/:id", authenticateToken, upload.single('image'), updatePlant);
+router.delete("/:id", authenticateToken, deletePlant);
 
 module.exports = router;

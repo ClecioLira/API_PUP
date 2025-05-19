@@ -8,11 +8,12 @@ const {
   updateVase,
   deleteVase,
 } = require("../controllers/vaseController");
+const { authenticateToken } = require("../middleware/authToken");
 
-router.post("/", upload.single("image"), createVase);
+router.post("/", authenticateToken, upload.single("image"), createVase);
 router.get("/", getAllVases);
 router.get("/:id", getVaseById);
-router.put("/:id", upload.single("image"), updateVase);
-router.delete("/:id", deleteVase);
+router.put("/:id", authenticateToken, upload.single("image"), updateVase);
+router.delete("/:id", authenticateToken, deleteVase);
 
 module.exports = router;
