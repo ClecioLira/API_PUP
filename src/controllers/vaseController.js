@@ -1,14 +1,19 @@
 const Vase = require("../models/Vase");
 
 exports.createVase = async (req, res) => {
-  const { name, description, price} = req.body;
+  const { name, description, price } = req.body;
 
-  if (!name || !req.file || !description || !price) {
-    return res
-      .status(400)
-      .json({
-        message: "NOME, IMAGEM, DESCRIÇÃO E PREÇO SÃO OBRIGATÓRIOS",
-      });
+  if (!name) {
+    return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
+  }
+  if (!req.file) {
+    return res.status(400).json({ message: "IMAGEM É OBRIGATÓRIA" });
+  }
+  if (!description) {
+    return res.status(400).json({ message: "DESCRIÇÃO É OBRIGATÓRIA" });
+  }
+  if (!price) {
+    return res.status(400).json({ message: "PREÇO É OBRIGATÓRIO" });
   }
 
   try {
@@ -55,25 +60,30 @@ exports.getVaseById = async (req, res) => {
 
 exports.updateVase = async (req, res) => {
   const { id } = req.params;
-  const { name, description, price} = req.body;
+  const { name, description, price } = req.body;
 
   if (!id) {
     return res.status(400).json({ message: "ID NÃO INFORMADO" });
   }
 
-  if (!name || !req.file || !description || !price) {
-    return res
-      .status(400)
-      .json({
-        message: "NOME, IMAGEM, DESCRIÇÃO E PREÇO SÃO OBRIGATÓRIOS",
-      });
+  if (!name) {
+    return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
+  }
+  if (!req.file) {
+    return res.status(400).json({ message: "IMAGEM É OBRIGATÓRIA" });
+  }
+  if (!description) {
+    return res.status(400).json({ message: "DESCRIÇÃO É OBRIGATÓRIA" });
+  }
+  if (!price) {
+    return res.status(400).json({ message: "PREÇO É OBRIGATÓRIO" });
   }
 
   try {
     const imageUrl = req.file.path;
     const updatedVase = await Vase.findByIdAndUpdate(
       id,
-      { name, imageUrl, description, price},
+      { name, imageUrl, description, price },
       { new: true }
     );
     if (!updatedVase) {

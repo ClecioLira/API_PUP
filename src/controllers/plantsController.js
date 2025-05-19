@@ -3,12 +3,20 @@ const Plant = require("../models/Plants");
 exports.createPlant = async (req, res) => {
   const { name, description, category, price, trend, bestSelling } = req.body;
 
-  if (!name || !req.file || !description || !category || !price) {
-    return res
-      .status(400)
-      .json({
-        message: "NOME, IMAGEM, DESCRIÇÃO, CATEGORIA E PREÇO SÃO OBRIGATÓRIOS",
-      });
+  if (!name) {
+    return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
+  }
+  if (!req.file) {
+    return res.status(400).json({ message: "IMAGEM É OBRIGATÓRIA" });
+  }
+  if (!description) {
+    return res.status(400).json({ message: "DESCRIÇÃO É OBRIGATÓRIA" });
+  }
+  if (!category) {
+    return res.status(400).json({ message: "CATEGORIA É OBRIGATÓRIA" });
+  }
+  if (!price) {
+    return res.status(400).json({ message: "PREÇO É OBRIGATÓRIO" });
   }
 
   try {
@@ -58,25 +66,43 @@ exports.getPlantById = async (req, res) => {
 
 exports.updatePlant = async (req, res) => {
   const { id } = req.params;
-  const { name, description, category, price, newPrice, trend, bestSelling } = req.body;
+  const { name, description, category, price, newPrice, trend, bestSelling } =
+    req.body;
 
   if (!id) {
     return res.status(400).json({ message: "ID NÃO INFORMADO" });
   }
 
-  if (!name || !req.file || !description || !category || !price) {
-    return res
-      .status(400)
-      .json({
-        message: "NOME, IMAGEM, DESCRIÇÃO, CATEGORIA E PREÇO SÃO OBRIGATÓRIOS",
-      });
+  if (!name) {
+    return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
+  }
+  if (!req.file) {
+    return res.status(400).json({ message: "IMAGEM É OBRIGATÓRIA" });
+  }
+  if (!description) {
+    return res.status(400).json({ message: "DESCRIÇÃO É OBRIGATÓRIA" });
+  }
+  if (!category) {
+    return res.status(400).json({ message: "CATEGORIA É OBRIGATÓRIA" });
+  }
+  if (!price) {
+    return res.status(400).json({ message: "PREÇO É OBRIGATÓRIO" });
   }
 
   try {
     const imageUrl = req.file.path;
     const updatedPlant = await Plant.findByIdAndUpdate(
       id,
-      { name, imageUrl, description, category, price, newPrice, trend, bestSelling },
+      {
+        name,
+        imageUrl,
+        description,
+        category,
+        price,
+        newPrice,
+        trend,
+        bestSelling,
+      },
       { new: true }
     );
     if (!updatedPlant) {

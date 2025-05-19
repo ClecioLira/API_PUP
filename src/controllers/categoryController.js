@@ -3,8 +3,11 @@ const Category = require("../models/Category");
 exports.createCategory = async (req, res) => {
   const { name } = req.body;
 
-  if (!name || !req.file) {
-    return res.status(400).json({ message: "NOME E IMAGEM SÃO OBRIGATÓRIOS" });
+  if (!name) {
+    return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
+  }
+  if (!req.file) {
+    return res.status(400).json({ message: "IMAGEM É OBRIGATÓRIA" });
   }
 
   try {
@@ -52,8 +55,11 @@ exports.updateCategory = async (req, res) => {
     return res.status(400).json({ message: "ID NÃO INFORMADO" });
   }
 
-  if (!name || !req.file) {
-    return res.status(400).json({ message: "NOME E IMAGEM SÃO OBRIGATÓRIOS" });
+  if (!name) {
+    return res.status(400).json({ message: "NOME É OBRIGATÓRIO" });
+  }
+  if (!req.file) {
+    return res.status(400).json({ message: "IMAGEM É OBRIGATÓRIA" });
   }
 
   try {

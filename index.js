@@ -6,6 +6,8 @@ const cors = require("cors");
 const categoryRoutes = require("./src/routes/categoryRoutes");
 const plantsRoutes = require("./src/routes/plantsRoutes");
 const vaseRoutes = require("./src/routes/vaseRoutes");
+const loginRoutes = require("./src/routes/loginRoutes");
+const registerRoutes = require("./src/routes/registerRoutes");
 
 const app = express();
 app.use(cors());
@@ -20,6 +22,8 @@ mongoose
     console.error("MongoDB connection error:", err);
   });
 
+app.use("/api/register", registerRoutes);
+app.use("/api/login", loginRoutes);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/plants", plantsRoutes);
 app.use("/api/vases", vaseRoutes);
