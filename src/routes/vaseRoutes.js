@@ -1,5 +1,5 @@
 import express from "express";
-import upload from "../../storage.js";
+import upload from "../storage.js";
 import {
   createVase,
   getAllVases,

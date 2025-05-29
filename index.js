@@ -1,4 +1,6 @@
 import dotenv from "dotenv";
+dotenv.config();
+
 import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
@@ -7,8 +9,6 @@ import plantsRoutes from "./src/routes/plantsRoutes.js";
 import vaseRoutes from "./src/routes/vaseRoutes.js";
 import loginRoutes from "./src/routes/loginRoutes.js";
 import registerRoutes from "./src/routes/registerRoutes.js";
-
-dotenv.config();
 
 const app = express();
 app.use(cors());
